@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="whatsThis">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;будет открыватся окно с чатами&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="main_support">
+       <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="1,4">
+        <item>
+         <widget class="QListWidget" name="listWidget_chats"/>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_chat">
+          <item>
+           <widget class="QTextEdit" name="textEdit_chat"/>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_send">
+            <item>
+             <widget class="QLineEdit" name="lineEdit_send"/>
+            </item>
+            <item>
+             <widget class="QToolButton" name="toolButton_send">
+              <property name="text">
+               <string>-&gt;</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="main_customer">
+       <layout class="QGridLayout" name="gridLayout_2" columnstretch="0,1,1,1,1,0">
+        <item row="0" column="1">
+         <widget class="QPushButton" name="pushButton_create">
+          <property name="text">
+           <string>Create route</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="2">
+         <widget class="QPushButton" name="pushButton_delete">
+          <property name="text">
+           <string>Delete route</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1" colspan="5">
+         <widget class="QTableView" name="tableView_paths"/>
+        </item>
+        <item row="0" column="3">
+         <widget class="QPushButton" name="pushButton_edit">
+          <property name="text">
+           <string>Edit route</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="4">
+         <widget class="QPushButton" name="pushButton_check">
+          <property name="text">
+           <string>Check route</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="main_admin">
+       <layout class="QGridLayout" name="gridLayout">
+        <item row="2" column="0" colspan="3">
+         <widget class="QTableView" name="tableView_tasks"/>
+        </item>
+        <item row="3" column="2">
+         <widget class="QPushButton" name="pushButton_check1">
+          <property name="text">
+           <string>Check route</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0">
+         <widget class="QPushButton" name="pushButton_completeTask">
+          <property name="text">
+           <string>Complete task</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="1">
+         <widget class="QPushButton" name="pushButton_verification">
+          <property name="text">
+           <string>Send for verification</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0" colspan="3">
+         <widget class="QLabel" name="label">
+          <property name="text">
+           <string>Tasks</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>Menu</string>
+    </property>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <action name="action_technicalSupport">
+   <property name="text">
+    <string>Technical support</string>
+   </property>
+  </action>
+  <action name="actionAdministrator">
+   <property name="text">
+    <string>Administrator</string>
+   </property>
+  </action>
+  <action name="action_cityAdministration">
+   <property name="text">
+    <string>City administration</string>
+   </property>
+  </action>
+  <action name="actionCustomer">
+   <property name="text">
+    <string>Customer</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

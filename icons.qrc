@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resource/icons/icons_authorization.png</file>
+        <file>resource/icons/icons_error.png</file>
+        <file>resource/icons/icons_information.png</file>
+        <file>resource/icons/icons_route.png</file>
+        <file>resource/icons/icons_skycontrol.png</file>
+        <file>resource/icons/icons_edit.png</file>
+    </qresource>
+</RCC>

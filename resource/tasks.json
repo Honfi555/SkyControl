@@ -1,0 +1,119 @@
+[
+    {
+        "coordinates": [
+            {
+                "x": 47,
+                "y": 45
+            },
+            {
+                "x": 245,
+                "y": 324
+            },
+            {
+                "x": 23,
+                "y": 3445
+            }
+        ],
+        "login": "customer1",
+        "map": "D:/repos/qt/SkyControl/resource/Dacha.png",
+        "routeTitle": "test route"
+    },
+    {
+        "coordinates": [
+            {
+                "x": 10,
+                "y": 20
+            },
+            {
+                "x": 40,
+                "y": 50
+            },
+            {
+                "x": 100,
+                "y": 130
+            },
+            {
+                "x": 140,
+                "y": 200
+            }
+        ],
+        "login": "AdirtKa",
+        "map": "D:/repos/qt/SkyControl/resource/Busse1.png",
+        "routeTitle": "Tokyo avengers"
+    },
+    {
+        "coordinates": [
+            {
+                "x": 12,
+                "y": 10
+            }
+        ],
+        "login": "customer1",
+        "map": "D:/repos/qt/SkyControl/resource/Busse1.png",
+        "routeTitle": "поееп"
+    },
+    {
+        "coordinates": [
+            {
+                "x": 12,
+                "y": 10
+            }
+        ],
+        "login": "customer1",
+        "map": "D:/repos/qt/SkyControl/resource/Busse1.png",
+        "routeTitle": "поееп"
+    },
+    {
+        "coordinates": [
+            {
+                "x": 100,
+                "y": 120
+            },
+            {
+                "x": 200,
+                "y": 310
+            }
+        ],
+        "login": "miniboxer",
+        "map": "D:/repos/qt/SkyControl/resource/Busse1.png",
+        "routeTitle": "First route"
+    },
+    {
+        "coordinates": [
+            {
+                "x": 100,
+                "y": 130
+            },
+            {
+                "x": 170,
+                "y": 200
+            },
+            {
+                "x": 200,
+                "y": 400
+            }
+        ],
+        "login": "Adirtka",
+        "map": "D:/repos/qt/SkyControl/resource/Busse1.png",
+        "routeTitle": "Токийские мстители"
+    },
+    {
+        "coordinates": [
+            {
+                "x": 10,
+                "y": 10
+            },
+            {
+                "x": 100,
+                "y": 200
+            },
+            {
+                "x": 210,
+                "y": 30
+            }
+        ],
+        "login": "new user",
+        "map": "D:/repos/qt/SkyControl/resource/Busse1.png",
+        "routeTitle": "First route"
+    }
+]
